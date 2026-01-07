@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef6f3;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #2b6777;
+}
+
+.container, .card {
+    background: #ffffff;
+    padding: 20px;
+    margin: 15px auto;
+    width: 85%;
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+    background-color: #52ab98;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3a8f7a;
+}
+
+.chat-output {
+    margin-top: 15px;
+    background: #dff3ee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 80%;
+    height: 70px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.posts {
+    margin-top: 20px;
+}
+
+.posts p {
+    background: #dff3ee;
+    padding: 8px;
+    margin: 5px auto;
+    width: 80%;
+    border-radius: 5px;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #2b6777;
+    font-weight: bold;
+}
+body {
+    font-family: Arial;
+    background-color: #f4f9f9;
+    padding: 20px;
+}
+
+textarea {
+    width: 300px;
+    height: 80px;
+}
+
+button {
+    padding: 8px 15px;
+    margin-top: 10px;
+}
+
+#posts p {
+    background: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}

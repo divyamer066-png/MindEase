@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MindEase - Peer Chatboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>💬 Anonymous Peer Chatboard</h1>
+    <p>Share your thoughts anonymously</p>
+
+    <textarea id="message" placeholder="Write your message here..."></textarea>
+    <br>
+    <button onclick="postMessage()">Post Message</button>
+
+    <div id="posts" class="posts"></div>
+
+    <nav>
+        <a href="index.html">⬅ Back to Home</a>
+    </nav>
+
+    <script src="js/chatboard.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Peer Chatboard - MindEase</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h2>🗣 Anonymous Peer Chatboard</h2>
+
+    <textarea id="messageInput" placeholder="Share your thoughts anonymously..."></textarea>
+    <br>
+    <button onclick="addPost()">Post</button>
+
+    <div id="posts"></div>
+
+    <script src="js/chatboard.js"></script>
+</body>
+</html>

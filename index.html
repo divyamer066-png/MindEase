@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MindEase - Mental Wellness</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1>💙 MindEase</h1>
+  <p>Your mental wellness companion</p>
+
+  <div class="chatbox">
+    <h2>🤖 How are you feeling?</h2>
+
+    <button onclick="chatResponse('anxious')">I'm feeling anxious</button>
+    <button onclick="chatResponse('stress')">I'm stressed about exams</button>
+    <button onclick="chatResponse('lonely')">I feel lonely</button>
+
+    <div id="chat-output"></div>
+  </div>
+
+  <nav>
+    <a href="resources.html">Resources</a> |
+    <a href="chatboard.html">Peer Chatboard</a>
+  </nav>
+
+  <script src="js/chatbot.js"></script>
+</body>
+</html>
