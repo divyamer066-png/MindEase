@@ -1,46 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>MindEase - Peer Chatboard</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+<main class="content">
+    <header class="top-header">
+        <h1>Peer Board 💬</h1>
+        <p>Share a kind message with fellow students. It's 100% anonymous.</p>
+    </header>
 
-    <h1>💬 Anonymous Peer Chatboard</h1>
-    <p>Share your thoughts anonymously</p>
-
-    <textarea id="message" placeholder="Write your message here..."></textarea>
-    <br>
-    <button onclick="postMessage()">Post Message</button>
-
-    <div id="posts" class="posts"></div>
-
-    <nav>
-        <a href="index.html">⬅ Back to Home</a>
-    </nav>
-
-    <script src="js/chatboard.js"></script>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Peer Chatboard - MindEase</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-    <h2>🗣 Anonymous Peer Chatboard</h2>
-
-    <textarea id="messageInput" placeholder="Share your thoughts anonymously..."></textarea>
-    <br>
-    <button onclick="addPost()">Post</button>
-
-    <div id="posts"></div>
-
-    <script src="js/chatboard.js"></script>
-</body>
-</html>
-
+    <div class="chat-section board-container">
+        <textarea id="post-input" placeholder="Type an encouraging message here..."></textarea>
+        <button onclick="savePost()" class="post-btn">Post Anonymously ✨</button>
+        
+        <hr style="margin: 30px 0; border: 0; border-top: 1px solid #ddd;">
+        
+        <div id="board-display" class="board-grid">
+            </div>
+    </div>
+</main>
