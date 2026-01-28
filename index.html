@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>MindEase - Mental Wellness</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>MindEase | Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <aside class="sidebar">
+        <div class="logo">🧠 MindEase</div>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="board.html">Peer Board</a></li>
+        </ul>
+    </aside>
 
-  <h1>💙 MindEase</h1>
-  <p>Your mental wellness companion</p>
+    <main class="main-content">
+        <div class="top-header">
+            <h1>Welcome, Friend. ✨</h1>
+            <p>Your safe space for mental clarity.</p>
+        </div>
 
-  <div class="chatbox">
-    <h2>🤖 How are you feeling?</h2>
+        <div class="glass-card">
+            <span style="font-size: 80px;">🕊️</span>
+            <h3>How are you feeling today?</h3>
+            <div id="chat-display" class="message-bubble">Waiting to chat... 💭</div>
+            <div class="chat-buttons">
+                <button onclick="getSupport('anxious')">😟 I'm Anxious</button>
+                <button onclick="getSupport('stressed')">😫 I'm Stressed</button>
+                <button onclick="getSupport('lonely')">🫂 I'm Lonely</button>
+            </div>
+        </div>
+    </main>
 
-    <button onclick="chatResponse('anxious')">I'm feeling anxious</button>
-    <button onclick="chatResponse('stress')">I'm stressed about exams</button>
-    <button onclick="chatResponse('lonely')">I feel lonely</button>
-
-    <div id="chat-output"></div>
-  </div>
-
-  <nav>
-    <a href="resources.html">Resources</a> |
-    <a href="chatboard.html">Peer Chatboard</a>
-  </nav>
-
-  <script src="js/chatbot.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
