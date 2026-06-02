@@ -1,4 +1,4 @@
-<h1 align="center">🧠 MindEase</h1>
+<h1 align="center">🧠 MINDEASE</h1>
 
 <p align="center">
   <b>A Simple Mental Wellness & Productivity Web Project 🌿</b><br>
